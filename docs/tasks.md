@@ -8,37 +8,37 @@ This document breaks down the implementation plan into actionable tasks with pro
 
 #### Task 1.1: Initialize Project Structure
 
-- [ ] Create project directory structure
-- [ ] Set up Go module with appropriate name
-- [ ] Create `cmd`, `internal`, `migrations`, and `tests` directories
-- [ ] Initialize Git repository with basic .gitignore
+- [x] Create project directory structure
+- [x] Set up Go module with appropriate name
+- [x] Create `cmd`, `internal`, `migrations`, and `tests` directories
+- [x] Initialize Git repository with basic .gitignore
 
 **Description:** Establish the basic project structure following Go conventions and hexagonal architecture principles.
 
 **Acceptance Criteria:**
 
-- Project follows clean directory structure (e.g., `cmd`, `internal`, `migrations`)
-- The `internal` directory is organized by layers (e.g., `domain`, `service`, `handler`, `repository`)
-- Go module is properly initialized
-- .gitignore includes appropriate entries for Go
+- ✅ Project follows clean directory structure (e.g., `cmd`, `internal`, `migrations`)
+- ✅ The `internal` directory is organized by layers (e.g., `domain`, `service`, `handler`, `repository`)
+- ✅ Go module is properly initialized
+- ✅ .gitignore includes appropriate entries for Go
 
 ---
 
 #### Task 1.2: Implement Basic Fiber Server
 
-- [ ] Install Fiber framework
-- [ ] Create basic server configuration
-- [ ] Implement basic routing structure
-- [ ] Add basic middleware (logger, recovery)
+- [x] Install Fiber framework
+- [x] Create basic server configuration
+- [x] Implement basic routing structure
+- [x] Add basic middleware (logger, recovery)
 
 **Description:** Set up a basic Fiber web server that can start successfully and handle basic requests.
 
 **Acceptance Criteria:**
 
-- A basic Fiber web server is implemented
-- Server starts successfully on configured port
-- Basic routes are accessible
-- Middleware for logging and recovery is in place
+- ✅ A basic Fiber web server is implemented
+- ✅ Server starts successfully on configured port
+- ✅ Basic routes are accessible
+- ✅ Middleware for logging and recovery is in place
 
 ---
 
